@@ -37,9 +37,11 @@ img {float: right;
 
 
 }
+/*
 p:nth-child(3) {
     clear: both;
 }
+*/
 #kotek {
     height: 100px;
     width: 100px;
@@ -56,8 +58,29 @@ p:nth-child(3) {
 #background {
     height: 50vh;
     background-color: aquamarine;
-    background-image: url(https://68.media.tumblr.com/avatar_42fe370ca389_128.png);
-	background-repeat: no-repeat;
-	background-position: center;
+ 
+	background: url(https://68.media.tumblr.com/avatar_42fe370ca389_128.png) center no-repeat;
 	
+	background-size: cover;
+		
 }
+
+
+#overflow p {
+	width: 25%;
+	float: left;
+	height: 50px;
+}
+
+#overflow p:nth-child(even){
+	background-color: aqua;
+}
+#overflow p:nth-child(odd){
+	background-color: antiquewhite;}
+	
+	#overflow p:nth-child(2){
+		overflow: hidden;}
+#overflow p:nth-child(3){
+		overflow: scroll;}
+#overflow p:nth-child(4){
+		overflow: auto;}
