@@ -37,5 +37,27 @@ img {float: right;
 
 
 }
-p:nth-child(3) {clear: both;
+p:nth-child(3) {
+    clear: both;
+}
+#kotek {
+    height: 100px;
+    width: 100px;
+    float: none;
+    margin-bottom: 300px;
+    display: inline-block;
+    
+    transition: width 5s linear 0.5s, height 2s linear 0.5s;
+}
+#kotek:hover {
+    height: 200px;
+    width: 200px;
+}
+#background {
+    height: 50vh;
+    background-color: aquamarine;
+    background-image: url(https://68.media.tumblr.com/avatar_42fe370ca389_128.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	
 }
