@@ -1,8 +1,11 @@
+/*
 p{
     display: block;
     font size: 2em;
     color: #fff;
 }
+*/
+/*
 
 p:nth-child(odd) {
     background-color: blue;
@@ -12,8 +15,10 @@ p:nth-child(even) {
 }
 p:nth-child1n+3) {
     display: block;}
+*/
 
 a {
+    
     width: 200px;
     height: 200px;
     background-color: orange;
@@ -25,4 +30,12 @@ a {
     line-height: 200px;
     
                
+}
+
+
+img {float: right;
+
+
+}
+p:nth-child(3) {clear: both;
 }
